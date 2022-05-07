@@ -24,13 +24,13 @@ const expenses = [
   },
 ];
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h2>Let's get started</h2>
       <Expenses item={expenses} />
     </div>
   );
-}
+};
 
 export default App;
